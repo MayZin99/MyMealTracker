@@ -8,6 +8,7 @@ This project was developed for the Advanced C Programming course to demonstrate 
 - User-interactive menu systems
   
 This program helps users record their daily meals and drinks, view all records, search through entries, delete entries, and generate weekly, monthly, and yearly summaries.
+
 Features
 1. Add Meal / Drink Entry
 Type: MEAL or DRINK
