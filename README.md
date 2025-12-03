@@ -7,7 +7,7 @@ This project was developed for the Advanced C Programming course to demonstrate 
 - Modular programming
 - User-interactive menu systems
 This program helps users record their daily meals and drinks, view all records, search through entries, delete entries, and generate weekly, monthly, and yearly summaries.
->> Features
+ Features
 1. Add Meal / Drink Entry
 Type: MEAL or DRINK
 Meal time: Breakfast/Lunch/Dinner/Snack/Coffee/etc.
@@ -39,18 +39,18 @@ Frequency of each menu item
 6. Save & Load Data (Persistent Storage)
 Automatically loads past records from meals.txt on startup.
 Saves all data to file on exit.
->> Technical Concepts Used (Advanced C)
+ Technical Concepts Used (Advanced C)
 This project demonstrates:
 - Dynamic memory allocation:
 - realloc(), free()
->> Pointer-to-pointer usage:
+ Pointer-to-pointer usage:
 For dynamically resizing the meal list Structures:
 - Custom Meal struct for storing related data
->> File handling:
+ File handling:
 - fopen(), fprintf(), fscanf(), fclose()
->> Modular programming:
+ Modular programming:
 main.c
 food.c
 food.h
->> Menu-driven user interface String processing:
+ Menu-driven user interface String processing:
 - strstr(), strcmp(), strncmp(), strcasecmp(), strcpy()
